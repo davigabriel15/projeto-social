@@ -16,8 +16,9 @@ main{
 }
 
 section#telefone{
+    background-color: blue;
     height: 500px;
-    width: 500px;
+    max-width: 500px;
     background-image: url(pacote-d013/pacote-de-imagens/imagens/frame-iphone.png);
     background-repeat: no-repeat;
     height: 627px;
@@ -38,5 +39,21 @@ iframe{
     height: 478px;
     width: 271px;
     top: 12%;
-    left: 7%;
+    left: 6%;
+}
+@media (max-width: 780px){
+    section#telefone{
+        background-color: blue;
+        height: 500px;
+        max-width: 500px;
+        background-image: url(pacote-d013/pacote-de-imagens/imagens/frame-iphone.png);
+        background-repeat: no-repeat;
+        height: 627px;
+        width: 311px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
 }
