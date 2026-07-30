@@ -41,19 +41,18 @@ iframe{
     top: 12%;
     left: 6%;
 }
-@media (max-width: 780px){
-    section#telefone{
-        background-color: blue;
-        height: 500px;
-        max-width: 500px;
-        background-image: url(pacote-d013/pacote-de-imagens/imagens/frame-iphone.png);
-        background-repeat: no-repeat;
-        height: 627px;
-        width: 311px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+/* 📱 Telas pequenas (celulares) */
+@media (max-width: 480px) {
+    section#telefone {
+        width: 90vw;   /* ocupa quase toda a largura */
+        height: auto;
+        aspect-ratio: 311 / 627;
+    }
 
+    iframe {
+        width: 88%;
+        height: 72%;
+        top: 12%;
+        left: 6%;
     }
 }
