@@ -40,3 +40,10 @@ iframe{
     top: 12%;
     left: 6%;
 }
+img{
+    position: absolute;
+    left: 90%;
+    border-radius: 200px;
+    width: 100px;
+    padding: 20px;
+}
